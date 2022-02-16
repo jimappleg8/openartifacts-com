@@ -27,6 +27,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jimappleg8
 github_username:  jimappleg8
 
+include:             ['_pages']
+paginate_path: "/_pages/index.html"
+
 # Build settings
 # theme: minima
 
