@@ -24,14 +24,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   OpenArtifacts.com offers a way to find work that needs doing in the form of open projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: jimappleg8
 github_username:  jimappleg8
 
-include:             ['_pages']
+# It's handy to have the miscellaneous pages tucked into a folder
+include: ['_pages']
 paginate_path: "/_pages/index.html"
 
-# Build settings
-# theme: minima
+# The base theme of minima-reboot was integrated into this site, so it is
+# no longer an external theme.
 
 plugins:
   - jekyll-seo-tag
@@ -55,17 +57,13 @@ collections:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache/
+  - Jenkinsfile
+  - minima-reboot.gemspec
+  - Rakefile
 
 minima_reboot:
   date_format: "%b %-d, %Y"
@@ -80,7 +78,3 @@ paginate: 5
 
 markdown: kramdown
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - minima-reboot.gemspec
