@@ -20,7 +20,7 @@ pipeline {
 					sh "env"
 					sh "/usr/bin/bundle exec jekyll build"
 				}
-				sh "cp -f \"${WORKSPACE}/${env.SITEID}docs/htaccess\" \"${WORKSPACE}/${env.SITEID}docs/_site/.htaccess\""
+				sh "cp -f \"${WORKSPACE}/${env.SITEID}docs/.htaccess\" \"${WORKSPACE}/${env.SITEID}docs/_site/.htaccess\""
 			}
 		}		
 		stage("publish-files") {
