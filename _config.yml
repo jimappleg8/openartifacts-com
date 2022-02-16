@@ -70,8 +70,8 @@ minima_reboot:
   date_format_short: "%b %-d"
 
 footer_icons:
-- username: jimappleg8/open-artifacts-com/
-  url: https://myopenartifacts.com/jimappleg8/open-artifacts-com/
+- username: jimappleg8/openartifacts-com/
+  url: https://myopenartifacts.com/jimappleg8/openartifacts-com/
   icon: gitlab-icon-rgb.svg
 
 paginate: 5
