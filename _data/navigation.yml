@@ -1,0 +1,12 @@
+- name: About
+  link: /about/
+  type: internal
+- name: Projects
+  link: /projects/
+  type: internal
+- name: News
+  link: /posts/
+  type: internal
+- name: MyOpenArtifacts
+  link: "http://www.myopenartifacts.com/jimappleg8/openartifacts-com/"
+  type: external

@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% for project in site.projects %}
+
+  {% if forloop.first %}
+    <table class="ml-4">
+  {% endif %}
+
+   <tr>
+    <td class="text-left align-top"><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title | escape }}</a></td>
+  </tr>
+
+  {% if forloop.last %}
+    </table>
+  {% endif %}
+
+{% endfor %}
