@@ -7,6 +7,6 @@
 - name: News
   link: /posts/
   type: internal
-- name: MyOpenArtifacts
-  link: "http://www.myopenartifacts.com/jimappleg8/openartifacts-com/"
+- name: Contribute
+  link: "https://gitlab.com/jimappleg8/openartifacts-com"
   type: external

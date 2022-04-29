@@ -71,7 +71,7 @@ minima_reboot:
 
 footer_icons:
 - username: jimappleg8/openartifacts-com/
-  url: https://myopenartifacts.com/jimappleg8/openartifacts-com/
+  url: 'https://gitlab.com/jimappleg8/openartifacts-com'
   icon: gitlab-icon-rgb.svg
 
 paginate: 5
